@@ -15,7 +15,6 @@ This project is an API built using **Java, Java Spring, Flyway Migrations, Postg
 - [API Endpoints](#api-endpoints)
 - [Authentication](#authentication)
 - [Database](#database)
-- [Contributing](#contributing)
 
 ## Installation
 
@@ -56,3 +55,6 @@ USER -> Standard user role for logged-in users.
 ADMIN -> Admin role for managing partners (registering new partners).
 ```
 To access protected endpoints as an ADMIN user, provide the appropriate authentication credentials in the request header.
+
+## Database
+The project utilizes MySQL as the database. 
